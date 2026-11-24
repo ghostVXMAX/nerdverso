@@ -25,7 +25,11 @@ jobs:
         with:
           gradle-version: '8.9'
       - name: Instalar SDK Android
-        run: sdkmanager --install 'platforms;android-35' 'build-tools;35.0.0'
+        run: |
+          SDKMANAGER=/usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager
+          yes | "$SDKMANAGER" --licenses
+          "$SDKMANAGER" --install 'platforms;android-35' 'build-tools;35.0.0'
+          echo 'sdk.dir=/usr/local/lib/android/sdk' > android/local.properties
       - name: Preparar arquivos do jogo
         run: mkdir -p android/app/src/main/assets/www && cp index.html android/app/src/main/assets/www/index.html
       - name: Compilar APK

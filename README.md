@@ -13,3 +13,7 @@ Acesse a página publicada no GitHub Pages ou abra `index.html` em um navegador.
 ## APK
 
 O APK Android é compilado pelo GitHub Actions e publicado na página de Releases do repositório.
+
+## Outro jogo: Elemental Clash
+
+O duelo de luta elemental é um jogo separado do quiz. [Jogue Elemental Clash](https://ghostvxmax.github.io/nerdverso/luta/).
