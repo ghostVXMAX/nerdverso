@@ -17,3 +17,7 @@ O APK Android é compilado pelo GitHub Actions e publicado na página de Release
 ## Outro jogo: Elemental Clash
 
 O duelo de luta elemental é um jogo separado do quiz. [Jogue Elemental Clash](https://ghostvxmax.github.io/nerdverso/luta/).
+
+## Outro jogo: Jujutsu Veil
+
+Battle royale 3D independente com 80 feiticeiros, técnicas amaldiçoadas e refinamento de energia. [Jogue Jujutsu Veil](https://ghostvxmax.github.io/nerdverso/battle/).
