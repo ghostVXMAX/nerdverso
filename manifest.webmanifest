@@ -1,0 +1,13 @@
+{
+  "name": "Nerdverso — Quiz do Universo Nerd",
+  "short_name": "Nerdverso",
+  "description": "Adivinhe anime, música, séries, filmes, mangás e games pelas pistas.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101022",
+  "theme_color": "#101022",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
